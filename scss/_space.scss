@@ -1,0 +1,136 @@
+// 元件外間距
+.m0-auto{
+    margin: 0 auto;
+}
+.mb1{
+    margin-bottom: $space;
+}
+.mb2{
+    margin-bottom: $space-2;
+}
+.mb3{
+    margin-bottom: $space-3;
+}
+.mb4{
+    margin-bottom: $space-4;
+}
+.mb5{
+    margin-bottom: $space-5;
+}
+.mb6{
+    margin-bottom: $space-6;
+}
+.mb-xl{
+    margin-bottom: 100px;
+}
+
+@media (max-width: 991px) {
+    .m0-auto-md{
+        margin: 0 auto;
+    }
+    .mb1-md{
+        margin-bottom: $space;
+    }
+    .mb2-md{
+        margin-bottom: $space-2;
+    }
+    .mb3-md{
+        margin-bottom: $space-3;
+    }
+    .mb4-md{
+        margin-bottom: $space-4;
+    }
+    .mb5-md{
+        margin-bottom: $space-5;
+    }
+    .mb6-md{
+        margin-bottom: $space-6;
+    }
+    .mb-xl-md{
+        margin-bottom: 100px;
+    } 
+}
+@media (max-width: 767px){
+    .m0-auto-sm{
+        margin: 0 auto;
+    }
+    .mb1-sm{
+        margin-bottom: $space;
+    }
+    .mb2-sm{
+        margin-bottom: $space-2;
+    }
+    .mb3-sm{
+        margin-bottom: $space-3;
+    }
+    .mb4-sm{
+        margin-bottom: $space-4;
+    }
+    .mb5-sm{
+        margin-bottom: $space-5;
+    }
+    .mb6-sm{
+        margin-bottom: $space-6;
+    }
+    .mb-xl-sm{
+        margin-bottom: 60px;
+    } 
+}
+
+//元件內間距
+// .px1{
+//     padding: 0 $space;
+// }
+// .px2{
+//     padding: 0 $space-2;
+// }
+// .px3{
+//     padding: 0 $space-3;
+// }
+// .px4{
+//     padding: 0 $space-4;
+// }
+// .px5{
+//     padding: 0 $space-5;
+// }
+// .px6{
+//     padding: 0 $space-6;
+// }
+// .px7{
+//     padding: 0 $space-7;
+// }
+// .px8{
+//     padding: 0 $space-8;
+// }
+
+// @media (max-width: 991px) {
+//     .px1-md{
+//         padding: 0 $space;
+//     }
+//     .px2-md{
+//         padding: 0 $space-2;
+//     }
+//     .px3-md{
+//         padding: 0 $space-3;
+//     }
+//     .px4-md{
+//         padding: 0 $space-4;
+//     }
+//     .px5-md{
+//         padding: 0 $space-5;
+//     }
+//     .px6-md{
+//         padding: 0 $space-6;
+//     }
+//     .px7-md{
+//         padding: 0 $space-7;
+//     }
+//     .px8-md{
+//         padding: 0 $space-8;
+//     }
+
+//     .pr4-md{
+//         padding-right: $space-4;
+//     };
+    
+// }

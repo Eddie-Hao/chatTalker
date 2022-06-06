@@ -1,0 +1,569 @@
+.bg-ball1 {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/bg_home.svg), url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/ball01.svg);
+    background-size: auto, auto;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right top, -222px 589px;
+
+    @media (max-width:991px) {
+        //圖片計算: 直接看100%/多少會變成1366和375的圖片尺寸
+        background-size: auto, calc(100% / 2.5);
+    }
+
+    @media (max-width:767px) {
+        background: none;
+    }
+}
+
+//hero文字
+.hero {
+    padding-bottom: 103px;
+
+    @media (max-width:767px) {
+        padding-bottom: 0;
+        margin-bottom: 92px;
+    }
+
+    &-title {
+        font-size: $fz-2;
+
+        @media (max-width:767px) {
+            font-size: $fz-1;
+        }
+    }
+
+    &-text {
+        font-size: $fz-7;
+
+        @media (max-width:767px) {
+            font-size: $fz-6;
+        }
+    }
+
+    &-subtitle {
+        font-size: $fz-3;
+
+        @media (max-width:767px) {
+            font-size: $fz-1;
+        }
+    }
+}
+
+//hero 的人物圖
+.banner_people {
+    width: 97%;
+
+    @media (max-width:767px) {
+        width: 91%;
+    }
+}
+
+// 三大平台文字
+.social-title {
+    font-size: $fz-6;
+
+    @media (max-width:767px) {
+        font-size: $fz-5;
+    }
+}
+
+.social-img {
+    width: 90px;
+}
+
+//hero文字
+.hero {
+    padding-bottom: 103px;
+
+    @media (max-width:767px) {
+        padding-bottom: 0;
+        margin-bottom: 92px;
+    }
+
+    &-title {
+        font-size: $fz-2;
+
+        @media (max-width:767px) {
+            font-size: $fz-1;
+        }
+    }
+
+    &-text {
+        font-size: $fz-7;
+
+        @media (max-width:767px) {
+            font-size: $fz-6;
+        }
+    }
+
+    &-subtitle {
+        font-size: $fz-3;
+
+        @media (max-width:767px) {
+            font-size: $fz-1;
+        }
+    }
+}
+
+//hero 的人物圖
+.banner_people {
+    width: 97%;
+
+    @media (max-width:767px) {
+        width: 91%;
+    }
+}
+
+// 三大平台文字
+.social-title {
+    font-size: $fz-6;
+
+    @media (max-width:767px) {
+        font-size: $fz-5;
+    }
+}
+
+.social-img {
+    width: 90px;
+}
+
+// hero 行動版背景小圖
+.bg-sm {
+    background: none;
+
+    @media (max-width:767px) {
+        display: block;
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/bg_home_sm.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+}
+
+.ball1-sm {
+    background: none;
+
+    @media (max-width:767px) {
+        display: block;
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/ball01.svg);
+        background-size: calc(100% / 2.9761);
+        background-repeat: no-repeat;
+        background-position: -77px 4px;
+    }
+}
+
+
+.ball2 {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/ball02.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 108% 410px;
+
+    @media (max-width:767px) {
+        background-size: calc(100% / 2.296);
+        background-position: 135% 52%;
+    }
+}
+
+//任何角色
+.role{
+    padding-bottom: $space-3;
+    @media (max-width:767px) {
+        margin-left: $space-5 - 2.5px;
+        margin-right: $space-5 - 2.5px;
+    }
+    &-img{
+        border-radius: $space-1 $space-1 0 0;
+    }
+    &:hover{
+        border: 4px solid $gray-100;
+        box-shadow: 0 2px 10px $shadow-dark;
+    }
+    &-subtitle{
+        font-size: $fz-3;
+        @media (max-width:767px) {
+            font-size: $fz-2;
+        }
+    }
+}
+
+//快速了解
+.benefit {
+    width: 230px;
+    padding: $space-4 $space-3 $space-6 $space-3;
+    margin-bottom: 28px;
+
+    @media (max-width: 991px) {
+        width: 49%;
+
+        .benefit:nth-child(odd) {
+            margin-right: 1%;
+        }
+    }
+
+    @media (max-width: 767px) {
+        width: 67%
+    }
+
+    .img-circle {
+        width: 86px;
+        height: 86px;
+        padding: 17px;
+        border-radius: 100%;
+        box-shadow: 0px 2px 10px $shadow-light;
+    }
+
+    &-card-title {
+        font-size: $fz-1;
+    }
+
+    &:hover {
+        box-shadow: 0px 2px 10px $shadow-dark;
+    }
+
+    //快速了解文字的容器
+    &-frame {
+        padding-left: $space-8;
+        padding-right: $space-8;
+
+        @media (max-width:767px) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    //快速了解文字
+    &-subtitle {
+        font-size: $fz-2;
+
+        @media (max-width:767px) {
+            font-size: $fz-1;
+        }
+    }
+}
+
+.ball3 {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/ball03.svg);
+    background-size: calc(100% / 9.106);
+    background-repeat: no-repeat;
+    background-position: 3.6% 25px;
+
+    @media (max-width:767px) {
+        background-size: auto;
+        background-position: -76px 40px;
+    }
+}
+
+//好評如潮 
+.comment-mb {
+    margin-bottom: 48px;
+
+    @media (max-width:767px) {
+        margin-bottom: 32px;
+    }
+}
+//swiper 套件
+.swiper {
+    padding-right: 12px;
+
+    &-wrapper {
+        padding-top: 56px;
+        padding-left: 8px;
+    }
+}
+.swiper-slide {
+    position: relative;
+    padding: $space-6 $space-4 $space-3 $space-4;
+    &-img {
+        width: 80px;
+        border-radius: 80px;
+        position: absolute;
+        top: -56px;
+    }
+    &:hover {
+        box-shadow: 0px 2px 10px $shadow-dark;
+    }
+}
+.star {
+    width: 121px;
+
+    &-item {
+        width: 16.78px;
+    }
+}
+.swiper-pagination {
+    position: static;
+    margin-top: 24px;
+    //被選中的圓點class名稱
+    &-bullet-active {
+        width: 16px;
+        height: 10px;
+        border-radius: 16px;
+        background-color: $tertiary-light;
+    }
+}
+
+//美好用戶體驗
+.cta-btm {
+    background-color: $white;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/home_footer.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 26%;
+
+    @media (max-width:576px) {
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/footer_sm.svg);
+        background-size: contain;
+        background-position: center top;
+        padding-top: 78%;
+    }
+
+    //美好用戶體驗 標題
+    &-title {
+        font-size: $fz-6;
+
+        @media (max-width:767px) {
+            font-size: $fz-4;
+        }
+    }
+}
+
+//收費頁 喇叭背景
+.price-bg {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/banner.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    @media (max-width:767px) {
+        height: 567px;
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/banner_sm.svg);
+        background-size: cover;
+        background-position: right bottom;
+    }
+}
+
+//收費頁 灰色背景
+.price-bg-gray {
+    height: 470px;
+    background-color: #F7F9FD;
+    border-radius: 0px 0px 0px 300px;
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    @media (max-width:767px) {
+        height: 495px;
+        border-radius: 0px 0px 0px 150px;
+    }
+}
+
+//hero區塊 讓背景顯示
+.price-hero {
+    padding-top: calc(100vw / 22);
+    padding-bottom: calc(100vw / 5.08);
+}
+
+//橘色球
+.price-ball {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/ball03.svg);
+    background-size: 361px;
+    background-repeat: no-repeat;
+    background-position: -267px top;
+
+    @media (max-width:767px) {
+        background-size: 204px;
+        background-position: -108px 556px;
+    }
+}
+
+//方案
+.plan {
+
+    @media (max-width:767px) {
+        padding-left: $space-6;
+        padding-right: $space-6;
+    }
+
+    @media (max-width:576px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    &-btn-items {
+        max-width: 780px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 4px;
+        padding-right: 0;
+        text-align: center;
+        white-space: nowrap;
+        overflow-x: auto;
+
+        &::-webkit-scrollbar {
+            display: none;
+            /* Chrome Safari */
+        }
+
+        @media (max-width:767px) {
+            width: 100%;
+        }
+
+    }
+
+    &-btn-item {
+        cursor: pointer;
+        font-size: $fz-2;
+        text-align: center;
+        padding: $space-1 $space-4;
+        border-radius: 27px;
+
+        @media (max-width:576px) {
+            cursor: pointer;
+            font-size: $fz-1;
+            text-align: center;
+            padding: $space $space-2;
+            border-radius: 27px;
+        }
+
+        &:not(:last-child) {
+            margin-right: $space-2;
+
+            @media (max-width:767px) {
+                margin-right: 6px;
+            }
+        }
+    }
+
+    &-card {
+        width: 50%;
+        height: auto;
+
+        &:first-child {
+            margin-right: $space;
+        }
+
+        &:last-child {
+            margin-left: $space;
+        }
+
+        @media (max-width: 991px) {
+            width: 100%;
+
+            &:first-child {
+                margin-right: 0;
+            }
+
+            &:last-child {
+                margin-left: 0;
+            }
+        }
+
+
+        &-title {
+            font-size: $fz-4;
+            margin-top: $space-2;
+        }
+
+        &-content {
+            padding: $space-4 $space-3;
+
+            @media (max-width:767px) {
+                padding: $space-3 $space-2;
+            }
+        }
+
+        &-gray {
+            width: 41%;
+            background-color: $gray-100;
+            border-radius: 12px;
+            padding-top: $space-3;
+            padding-bottom: $space-3;
+            margin-left: 6px;
+            margin-right: 6px;
+        }
+
+        &-num {
+            font-size: $fz-6;
+
+            @media (max-width:767px) {
+                font-size: $fz-5;
+            }
+        }
+
+        &-equal {
+            font-size: 29px;
+
+            @media (max-width: 767px) {
+                font-size: $fz-4;
+            }
+        }
+    }
+
+    &-list {
+        text-align: left;
+
+        &-item {
+            @media (max-width:767px) {
+                font-size: 14px;
+            }
+
+            &-img {
+                width: 16px;
+                margin-right: $space-1;
+
+                @media (max-width:767px) {
+                    margin-right: $space-2;
+                }
+            }
+        }
+    }
+}
+
+//問答
+.qa {
+    &-item {
+        padding: $space-2 $space-4;
+        position: relative;
+        @media (max-width:767px) {
+            padding: $space-2 ;
+        }
+
+        &-title {
+            cursor: pointer;
+            font-size: $fz-2;
+            @media (max-width:767px) {
+                font-size: $fz-1;
+            }
+        }
+
+        &-content {
+            color: $gray-300;
+            padding: $space-1 $space-4 $space-4 $space-4;
+            @media (max-width:767px) {
+                padding: 0 $space-3 $space-3 $space-3;
+            }
+        }
+    }
+
+    &-active {
+        margin-bottom: $space-3;
+        font-weight: bold;
+        color: $primary;
+    }
+    &-plus,&-minus {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.back-top {
+    position: fixed;
+    top: 85vh;
+    right: $space-6;
+    z-index: 999;
+
+    @media (max-width:767px) {
+        width: 50px;
+        right: $space-2;
+    }
+}
